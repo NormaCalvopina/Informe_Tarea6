@@ -11,6 +11,7 @@ Resolución de ejercicios Capitulo 11 y 12 Libro de Floyd. "Principios de circui
 
 Conocer los conceptos de la corriente al voltaje alternos y sobre los capacitores mediante la lectura y análisis de los capítulos 11 y 12 del libro de Floyd, "Principios de circuitos eléctricos" y desarrollar los problemas planteados en cada capitulo para reforzar su conocimiento.
 
+
 #### Objetivos específicos
 
 - Identificar una forma de onda sinusoidal y medir sus características 
