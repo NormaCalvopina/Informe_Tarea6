@@ -1,5 +1,5 @@
 # Informe_Tarea6
-Resolución de ejercicios Cap;itulo 11 y 12 Libro de Floyd. "Principios de circuitos eléctricos". (Octava edición)
+Resolución de ejercicios Capitulo 11 y 12 Libro de Floyd. "Principios de circuitos eléctricos". (Octava edición)
 
 ### Introducción a la corriente y al voltaje alternos (Capitulo 11)
 
@@ -9,11 +9,21 @@ Resolución de ejercicios Cap;itulo 11 y 12 Libro de Floyd. "Principios de circu
 
 #### Objetivos generales
 
+Conocer los conceptos de la corriente al voltaje alternos y sobre los capacitores mediante la lectura y análisis de los capítulos 11 y 12 del libro de Floyd, "Principios de circuitos eléctricos" y desarrollar los problemas planteados en cada capitulo para reforzar su conocimiento.
 
 #### Objetivos específicos
 
+- Identificar una forma de onda sinusoidal y medir sus características 
 
+- Describir cómo se generan las ondas seno y determinar los valores de voltaje y corriente de una onda seno
 
+- Analizar matemáticamente una forma de onda sinusoidal
+
+- Aplicar las leyes de circuito básicas a circuitos de ca resistivos
+
+- Estudiar el concepto de capacitores y sus tipos 
+
+- Analizar capacitores en serie y paralelo 
 
 ### 2. MARCO TEÓRICO
 
@@ -73,11 +83,82 @@ Asimismo, los radianes pueden convertirse en grados.
 
 ![image](https://user-images.githubusercontent.com/105259381/178622747-82bd5c72-e90e-4458-8b88-b7a591de2715.png)
 
+#### Ángulos de onda seno
 
+La medición angular de una onda seno se basa en 360° o 2 π para un ciclo completo. Medio ciclo son 180° o π rad; un cuarto de ciclo son 90° o π/2 rad; y así sucesivamente.
 
+![image](https://user-images.githubusercontent.com/105259381/179047753-c8aa788b-9e09-4018-8e53-0169015dfebb.png)
 
+#### Fase de una onda seno
 
+La fase de una onda seno es una medición angular que especifica la posición de dicha onda seno con respecto a una referencia.
 
+La imagen muestra un ciclo de una onda seno que se utilizará como referencia. Observe en la imagen que el primer cruce hacia positivo del eje horizontal (cruce por cero) se localiza en 0° (0 rad), y el pico positivo está en 90° (π /2 rad). El cruce por 0 hacia negativo está en 180° (π rad), y el pico negativo está en 270° (3 π /2 rad). El ciclo se completa en 360° (2 π rad). Cuando la onda seno de desplaza hacia la izquierda o la derecha con respecto a esta referencia, hay un desplazamiento de fase.
+
+![image](https://user-images.githubusercontent.com/105259381/179047981-0d2fa90c-440d-478c-ad0d-818ff0e02bf5.png)
+
+#### FÓRMULA DE LA ONDA SENO
+
+La amplitud de ésta (A) es el valor máximo de voltaje o corriente en el eje vertical; los valores angulares aparecen a lo largo del eje horizontal. La variable y es un valor instantáneo que representa o voltaje o corriente a un ángulo dado, u. El símbolo θ es la letra griega teta.
+
+![image](https://user-images.githubusercontent.com/105259381/179069619-2bbf5006-32cc-472c-9520-d3ccec4f6185.png)
+
+![image](https://user-images.githubusercontent.com/105259381/179071763-b39f72c4-199a-4861-8021-75ecf8f0b329.png)
+
+#### Ángulos fasoriales positivos y negativos
+
+La posición de un fasor en cualquier instante puede expresarse como un ángulo positivo, como ya se vio, o como un ángulo negativo equivalente. Los ángulos positivos se miden en sentido contrario al de las manecillas del reloj a partir de 0°. Los ángulos negativos se miden en el mismo sentido de las manecillas del reloj a partir de 0°. Para un ángulo positivo dado u, el ángulo negativo correspondiente es θ = 360°, como se observa en la imagen. En la parte (b), se muestra un ejemplo específico. El ángulo del fasor se expresa en este caso como +225° o -135°
+
+![image](https://user-images.githubusercontent.com/105259381/179072510-71b7f27a-5d3c-4dd1-90a5-da3b81abaa14.png)
+
+#### ANÁLISIS DE CIRCUITOS DE CA
+
+Si se aplica un voltaje sinusoidal entre los extremos de un resistor como indica la figura, se produce una corriente sinusoidal. Ésta es de magnitud cero cuando el voltaje es de cero, y es máxima cuando el voltaje es máximo. Cuando el voltaje cambia de polaridad, la corriente invierte su dirección. Por consiguiente, se dice que el voltaje y la corriente están en fase entre sí.
+
+![image](https://user-images.githubusercontent.com/105259381/179072728-08a2d7d8-8440-4d22-aa5b-bc5da4f8eb47.png)
+
+La potencia en circuitos de ca resistivos se determina del mismo modo que para circuitos de cd, excepto que se deben utilizar valores rms de corriente y voltaje. Recuerde que el valor rms de un voltaje de onda seno equivale a un voltaje de cd del mismo valor en función de su efecto de calentamiento. Las fórmulas generales de potencia se replantean para un circuito de ca como
+
+![image](https://user-images.githubusercontent.com/105259381/179072873-ffbd79b3-89b2-4964-ad1c-8da0942b9697.png)
+
+#### EL OSCILOSCOPIO
+
+El osciloscopio es básicamente un dispositivo de visualización que traza, en su pantalla, una gráfica de una señal eléctrica medida. En la mayoría de las aplicaciones, la gráfica muestra cómo cambian las señales con el tiempo. El eje vertical de la pantalla de visualización representa voltaje, y el eje horizontal representa tiempo. Se puede medir la amplitud, el periodo y la frecuencia de una señal por medio de un osciloscopio.
+
+![image](https://user-images.githubusercontent.com/105259381/179073334-44632e65-6ab8-4c75-a22e-65bc3ba98868.png)
+
+### Capacitores (Capitulo 12)
+
+![image](https://user-images.githubusercontent.com/105259381/179078969-372278df-5d2c-4f7e-82da-67c9184eee49.png)
+
+---------
+
+![image](https://user-images.githubusercontent.com/105259381/179086484-259d234e-60b6-4ed2-ae39-0be88642b0d8.png)
+
+---------
+
+![image](https://user-images.githubusercontent.com/105259381/179089796-dc126531-a051-4d6e-9930-807dd64fdc04.png)
+
+#### APLICACIONES DE LOS CAPACITORES
+
+#### Almacenamiento eléctrico
+
+El capacitor de almacenamiento se conecta entre la entrada de la fuente de potencia de cd al circuito y tierra. Cuando el circuito está funcionando con su fuente de potencia normal, el capacitor permanece totalmente cargado al voltaje de la fuente de potencia de cd. Si se interrumpe, por la remoción efectiva de la fuente del circuito, el capacitor de almacenamiento se transforma temporalmente en fuente de potencia para el circuito.
+
+#### Filtrado en una fuente de potencia
+
+Una fuente de potencia de cd básica consta de un circuito conocido como rectificador seguido por un filtro. El rectificador convierte el voltaje sinusoidal de 110 V, 60 Hz suministrado por una toma de corriente estándar en un voltaje pulsante de cd que puede ser o voltaje rectificado de media onda o voltaje rectificado de onda completa, según el tipo de circuito rectificador.
+
+![image](https://user-images.githubusercontent.com/105259381/179098271-2b00f345-14b9-419b-a66a-13441cfdb8fc.png)
+
+Bloqueo de cd y acoplamiento de ca
+
+Con el fin de bloquear el voltaje de cd constante en una parte de un circuito para que no llegue a otra parte, por lo común se utilizan capacitores. Como un ejemplo de esto, se conecta un capacitor entre dos etapas de un amplificador para evitar que el voltaje de cd a la salida de la etapa 1 afecte el voltaje de cd a la entrada de la etapa 2
+
+![image](https://user-images.githubusercontent.com/105259381/179098404-208f9bee-cab5-4deb-8ab1-3403a2710732.png)
+
+#### Desacoplamiento de línea de potencia
+En tarjetas de circuito, para desacoplar los transitorios o pulsos estrechos de voltaje indeseables que ocurren en el voltaje de suministro de cd debido a circuitos digitales de rápida conmutación, se utilizan capacitores conectados desde la línea de voltaje de la fuente de cd hasta tierra. Un transitorio de voltaje contiene frecuencias altas que pueden afectar la operación de los circuitos.
 
 ### 3. EXPLICACIÓN O RESOLUCIÓN DE EJERCICIOS O PROBLEMAS
 
@@ -426,14 +507,24 @@ La reactancia de un capacitor debe ser de 0 Ω para que se pueda eliminarr un vo
 
 ### 4. CONCLUSIONES
 
+Es necesario resaltar que un voltaje alterno es uno que cambia de polaridad con cierta rapidez.
 
+La forma de la onda seno es el tipo más común y fundamental porque todos los demás tipos de formas de onda repetitivas pueden ser descompuestos en ondas seno compuestas.
 
+Se estudió el análisis de circuitos de ca en el cual las señales eléctricas varían con el tiempo, en particular la onda seno. Una señal eléctrica es un voltaje o una corriente que cambian de manera consistente con el tiempo. Es decir, el voltaje o la corriente fluctúan de acuerdo con cierto patrón llamado forma de onda.
+Se comprendió acerca del capacitor y sus características. Se analiza la construcción física, las propiedades eléctricas, y los efectos de conectar capacitores en serie y en paralelo.
+
+Se analizó el funcionamiento de un capacitor en circuitos de ca y de cd es una parte importante de esta sección, y constituye la base para el estudio de circuitos reactivos en función tanto de respuesta a la frecuencia como de respuesta al tiempo.
+
+El capacitor es un dispositivo eléctrico que puede guardar carga eléctrica, con lo cual crea un campo eléctrico que, a su vez, guarda energía. La medida de la capacidad de almacenamiento de energía de un capacitor es su capacitancia. Cuando se aplica una señal sinusoidal a un capacitor, éste reacciona de cierta manera y produce oposición a la corriente, la cual depende de la frecuencia y la señal aplicada. Esta oposición a la corriente se llama reactancia capacitiva.
 
 ### 5. VIDEO
 
 
+
 ### 6. BIBLIOGRAFIA
 
+Floyd, TL (2007). Principios de circuitos electricos. Monterrey: Pearson Educación
 
 
 
