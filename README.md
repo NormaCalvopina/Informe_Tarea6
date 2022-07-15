@@ -521,7 +521,7 @@ El capacitor es un dispositivo eléctrico que puede guardar carga eléctrica, co
 
 ### 5. VIDEO
 
-
+https://youtu.be/FZqTy8Rzi6Q
 
 ### 6. BIBLIOGRAFIA
 
